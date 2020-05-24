@@ -1,0 +1,10 @@
+---
+title: Documentation
+description: Everything you need to know about setup and features.
+---
+<div class="blog-post text-container">
+	<div class="post-content">
+		{% capture my_include %}{% include_relative _docs/setup.md %}{% endcapture %}
+		{{ my_include | markdownify }}
+	</div>
+</div>
