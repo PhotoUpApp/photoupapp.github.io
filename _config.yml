@@ -19,7 +19,6 @@ url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -56,16 +55,14 @@ defaults:
     scope:
       path: "documentation.html"
     values:
+      layout: "page"
       full_width: true
   -
     scope:
       path: "contact.html"
     values:
+      layout: "page"
       full_width: true
-
-jekyll-archives:
-  enabled:
-    - categories
 
 plugins:
   - jekyll-archives
