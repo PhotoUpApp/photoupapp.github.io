@@ -17,8 +17,7 @@ kramdown:
 title: Hydra Template
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
+google_analytics_key: UA-46121892-5
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
